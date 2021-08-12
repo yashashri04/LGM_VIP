@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1024px) {
+    #home{
+        width: 80%;
+    }
+    .card{
+        width: 14rem;
+    }
+    #team-members{
+        width: 70%;
+    }
+    #blog{
+        width: 75%;
+    }
+    #contact-form input{
+     width: 21rem;
+    }
+    .footer-container{
+     width: 100%;
+   }
+ }
+ 
+ @media only screen and (max-width: 768px){
+     #home{
+         width: 100%;
+     }
+     .card{
+         width: 10rem;
+     }
+     #pricing{
+         width: 75%;
+     }
+     .card-img{
+         height: 12rem;
+     }
+     
+     .title1{
+         font-size: 2rem;
+     }
+    
+     iframe{
+         width: 200px;
+         height: 150px;
+     }
+     .video{
+         margin-top: 0;
+     }
+     .mid-video{
+         width: 200px;
+         height: 150px;
+     }
+     #team-members{
+         width: 80%;
+     }
+     #contact-form{
+         padding: 0 1rem;
+     }
+     #footer{
+         font-size: 0.75rem;
+     }
+     .middle{
+         top: 30%;
+         left: 24%;
+      }
+ 
+      .navbar-toggler{
+         border: none;
+      }
+      #navbarSupportedContent{
+          background-color: black;
+      }
+ }
+ 
+ 

@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+/**** navbar ****/
+.mynav{
+    position:absolute;
+    z-index: 2;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    margin: 1rem 3rem;
+}
+a[href*=\#]{
+    color: white;
+}
+#nav-logo{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 245, 98);
+}
+.nav-link{
+    font-size: 17px;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link::after{
+    content: "";
+    display: block;
+    margin-top: 1px;
+    width: 0;
+    height: 1.5px;
+    background: #fff;
+    transition: width .3s;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+/**** home ****/
+.carousel_imgs{
+    height: 85vmin;
+}
+.slider{
+    position: relative;
+    z-index: 1;
+}
+
+
+#home{
+    width: 65%;
+}
+
+.home_section1{
+    margin: 2rem 1rem;
+    text-align: justify;
+}
+.home_section2{
+    margin: 2rem 1rem;
+}
+
+
+/**** projects ****/
+.card{
+    width: 18rem;
+}
+.card-img{
+    height: 16rem;
+}
+.card-btn{
+    border: none;
+    background-color: crimson;
+}
+.card-btn:hover{
+    background-color: rgb(177, 20, 51);
+}
+
+
+/**** video projects ****/
+.video{
+    margin-top:2rem;
+}
+.mid-video{
+    height: 200px; 
+    width: 350px;
+}
+
+
+/**** team section ****/
+.team{
+    position: relative;
+}
+#team-members{
+    width: 60%;
+}
+.team-name{
+        font-size: 1.1rem;
+        font-weight: 500;   
+}
+.role{
+    font-size: 0.9rem;
+    color: rgb(85, 81, 81);
+}
+.middle{
+    position: absolute;
+    top: 35%;
+    left: 28%;
+    z-index: -1;
+ }
+
+.rounded-circle:hover{
+    opacity: 0.3;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.rounded-circle:hover .middle{
+  z-index: 1;
+}
+
+
+
+/**** image galary ****/
+#image-galary{
+    padding: 50px;
+    background-color: #04081b;
+}
+
+.zoom-small:hover{
+    height: 150px;
+    width: 70px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.zoom:hover{
+    height: 180px;
+    width: 80px;
+    cursor: pointer;
+    transform: scale(1.1); 
+}
+
+
+/**** signup section ****/
+#signup_container{
+    background: url('images/signup-bg.jpg');
+    height: 48vmin;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#signup-form input{
+    width: 20rem;
+    height: 2rem;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#signup-form button{
+    width: 5rem;
+    height: 2rem;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: crimson;
+    color: rgb(255, 247, 247);
+}
+
+/**** blog ****/
+#blog{
+    width: 50%;
+}
+
+/**** pricing ****/
+#pricing{
+    width: 50%;
+}
+
+/**** contacts ****/
+#contacts{
+    height: 450px;
+    margin-top: 4rem;
+}
+#contact-form{
+    float: right;
+    width: 50% ; 
+    height: 450px; 
+    padding: 0 3rem;
+    background-color: rgb(196 166 169);
+}
+#contact-form input{
+    width: 22rem;
+    height: 2rem;
+    padding: 3px 5px;
+    margin: 2px 0;
+    border: none;
+    border-radius: 4px;
+}
+#textarea{
+    padding: 3px 5px;
+    border-radius: 4px;
+}
+#contact-form button{
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    background-color: crimson;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+/**** footer ****/
+#footer{
+    color: white;
+    padding: 20px;
+}
+
+.footer-container{
+    width: 75%;
+}
+
+/* utility classes */
+.title1{
+    font-size: 2.2rem;
+    font-weight: bold;
+    
+}
+.title2{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.para{
+    font-size: 17px;
+}
+.btn1{
+    background-color: rgb(139, 18, 155);
+    color: white;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2px;
+    text-align: center;
+    
+}
+.btn1:hover{
+    background-color: rgb(75, 10, 83);
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.border-btm{
+    width: 6rem;
+    height: 3px!important;
+    background-color: crimson;
+    margin: auto;
+    opacity: 1;
+    border-radius: 5px;
+
+}
+
+
+ 
+
+
+
+
+
+
