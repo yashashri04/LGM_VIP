@@ -10,7 +10,11 @@ html{
     scroll-behavior: smooth;
 }
 
-
+#backToTopBtn{
+    margin-top: 30px;
+    left: 94vw;
+    position: fixed;
+}
 /**** navbar ****/
 .mynav{
     position:absolute;

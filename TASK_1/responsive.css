@@ -68,6 +68,10 @@
       #navbarSupportedContent{
           background-color: black;
       }
+
+      #backToTopBtn{
+        left: 92vw;
+    }
  }
  
  
